@@ -11,10 +11,10 @@ function HeroSection() {
           <h1 className="text-3xl font-semibold text-black dark:text-white xl:text-5xl lg:text-3xl"><span className="block w-full">Reach Out - Connect with the Decentralized Learning Revolution</span> </h1>
           <p className="py-4 text-lg text-gray-500 2xl:py-8 md:py-6 2xl:pr-5">
             Ready to join the ABYA University movement? 
-            We're excited to connect with you and answer any questions you may have about our platform, community, or vision for the future of education.
+            We re excited to connect with you and answer any questions you may have about our platform, community, or vision for the future of education.
           </p>
           <div className="mt-4">
-            <a href="#contact" className="px-5 py-3 text-lg tracking-wider text-white bg-yellow-400 dark:bg-yellow-400 rounded-lg md:px-8 hover:bg-blue-600 group"><span>Explore More</span></a>
+            <a href="#contact" className="px-5 py-3 text-lg tracking-wider text-white bg-yellow-500 rounded-lg md:px-8 hover:bg-yellow-400 transition duration-300 ease-in-out"><span>Explore More</span></a>
           </div>
         </div>
 
@@ -28,4 +28,3 @@ function HeroSection() {
 }
 
 export default HeroSection;
-

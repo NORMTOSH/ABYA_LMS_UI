@@ -2,11 +2,11 @@
 
 import { useEffect } from 'react';
 import "flowbite";
-import Navbar from '../../components/homepage components/navbar';
-import Contacthero from '../../components/contactus_components/contact_hero';
-import Contactoption from '../../components/contactus_components/contact_option';
-import Contactform from '../../components/contactus_components/contactform';
-import JionSocial from '../../components/contactus_components/joinsocials';
+// import Navbar from '../../components/homepage components/navbar';
+import HeroSection  from '../../components/Contact Us Page Components/contact_hero';
+import ConnectOption from '../../components/Contact Us Page Components/contact_option';
+import Contactform from '../../components/Contact Us Page Components/contactform';
+import CommunitySection from '../../components/Contact Us Page Components/join socials';
 import Footer from '../../components/homepage components/footer'
 import { initFlowbite } from 'flowbite';
 //import "../styles/style.css";
@@ -21,10 +21,10 @@ const Contactpage = () => {
     return ( 
         <div>
             {/* <Navbar /> */}
-            <Contacthero/>
-            <Contactoption/>
+            <HeroSection/>
+            <ConnectOption/>
             <Contactform />
-            <JionSocial/>
+            <CommunitySection/>
             <Footer/>
         </div>
      );

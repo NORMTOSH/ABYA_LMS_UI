@@ -32,7 +32,7 @@ const Navbar = () => {
                 About Us
               </a>
             </li>
-            <li className="px-2"><a href="#"  className="font-semibold text-lg md:text-md lg:text-lg text-gray-500 transition-colors duration-300 ease-in-out hover:text-yellow-400 hover:cursor-pointer hover:underline">The Platform</a></li>
+            <li className="px-2"><a href="/platform"  className="font-semibold text-lg md:text-md lg:text-lg text-gray-500 transition-colors duration-300 ease-in-out hover:text-yellow-400 hover:cursor-pointer hover:underline">The Platform</a></li>
             <li className="px-2"><a href="#"  className="font-semibold text-lg md:text-md lg:text-lg text-gray-500 transition-colors duration-300 ease-in-out hover:text-yellow-400 hover:cursor-pointer hover:underline">DAO & Tokenomics</a></li>
             <li className="px-2"><a href="/communitypage"  className="font-semibold text-lg md:text-md lg:text-lg text-gray-500 transition-colors duration-300 ease-in-out hover:text-yellow-400 hover:cursor-pointer hover:underline">Community</a></li>
             <li className="px-2"><a href="#"  className="font-semibold text-lg md:text-md lg:text-lg text-gray-500 transition-colors duration-300 ease-in-out hover:text-yellow-400 hover:cursor-pointer hover:underline">Resources</a></li>
@@ -78,7 +78,7 @@ const Navbar = () => {
             <a href="/aboutpage" class="font-semibold text-gray-600 dark:text-gray-200 transition-colors duration-300 ease-in-out hover:text-gray-400 hover:cursor-pointer">About Us</a>
           </li>
           <li className="mx-auto flex items-center justify-center p-2">
-            <a href="#" class="font-semibold text-gray-600 dark:text-gray-200 transition-colors duration-300 ease-in-out hover:text-gray-400 hover:cursor-pointer">The Platform</a>
+            <a href="/platform" class="font-semibold text-gray-600 dark:text-gray-200 transition-colors duration-300 ease-in-out hover:text-gray-400 hover:cursor-pointer">The Platform</a>
           </li>
           <li className="mx-auto flex items-center justify-center p-2">
             <a href="#" class="font-semibold text-gray-600 dark:text-gray-200 transition-colors duration-300 ease-in-out hover:text-gray-400 hover:cursor-pointer">DAO & Tokenomics</a>
@@ -90,7 +90,7 @@ const Navbar = () => {
             <a href="#" class="font-semibold text-gray-600 dark:text-gray-200 transition-colors duration-300 ease-in-out hover:text-gray-400 hover:cursor-pointer">Resources</a>
           </li>
           <li className="mx-auto flex items-center justify-center p-2">
-             <a href="#" class="font-semibold text-gray-600 dark:text-gray-200 transition-colors duration-300 ease-in-out hover:text-gray-400 hover:cursor-pointer">Contact Us</a>
+             <a href="/contactpage" class="font-semibold text-gray-600 dark:text-gray-200 transition-colors duration-300 ease-in-out hover:text-gray-400 hover:cursor-pointer">Contact Us</a>
           </li>
 
           </ul>
