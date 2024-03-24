@@ -9,10 +9,10 @@ const Highlights = () => {
       <h2 className='mx-auto flex text-2xl font-bold justify-center p-2'>Community Highlights</h2>
       <div className='container flex flex-col mx-auto'>
         <div className="gap-4 items-center py-8 px-4 mx-auto flex flex-col md:flex-row md:w-full md:gap-2 md:space-x-2 p-2">
-          <div className='md:items-start md:w-[30%] lg:w-[30%] m-1'>
+          <div className='md:items-start md:hidden lg:flex lg:w-[90%] m-1'>
             <img className="p-1 w-full h-auto rounded-t-lg" src="highlights.jpg" alt="product image" />
           </div>
-          <div className="md:items-end md:w-[70%] lg:w-[70%] m-2">
+          <div className="md:items-center md:justify-center md:mx-auto md:pl-[100px] md:w-[80%] lg:w-[70%] m-2">
             <ul className='my-auto items-center'>
               <li className="mb-2">
                 <span className='font-bold'>Global Network:</span>
@@ -43,7 +43,7 @@ const Highlights = () => {
         </div>
         <h2 className='mx-auto flex text-2xl font-bold justify-center p-2'>Join the Movement</h2>
         <div className="gap-2 items-center py-8 px-4 mx-auto flex container flex-col md:flex-row md:w-full md:gap-2 md:space-x-2 p-2">
-          <div className="md:items-start md:w-[70%] lg:w-[70%] m-2">
+          <div className="md:items-center md:ml-[100px] md:w-[80%] lg:w-[70%] m-2">
             <ul className='my-auto items-center'>
               <li className="mb-2">
                 <span className='font-bold'>Join our forum:</span>
@@ -67,7 +67,7 @@ const Highlights = () => {
               <svg className="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
             </a>
           </div>
-          <div className='md:items-end md:w-[30%] lg:w-[30%] m-2'>
+          <div className='md:hidden lg:flex lg:w-[80%] m-2'>
             <img className="p-2 w-full h-auto rounded-t-lg" src="movement.jpg" alt="product image" />
           </div>
         </div>

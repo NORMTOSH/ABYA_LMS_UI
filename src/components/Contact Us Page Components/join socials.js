@@ -4,13 +4,13 @@ import { faWhatsapp, faLinkedin, faTwitter, faFacebook, faGoogle } from '@fortaw
 
 const CommunitySection = () => {
   return (
-    <div className='mx-auto pt-10 md:pt-20 bg-white dark:bg-gray-900 h-auto'>
+    <div className='mx-auto py-20 md:pt-20 bg-white dark:bg-gray-900 h-auto'>
       <div className="text-center">
         <p className="mt-4 text-3xl md:text-4xl font-extrabold">Stay Connected</p>
       </div>
-      <div className="max-w-7xl mx-auto pt-10 md:pt-20 flex flex-col md:flex-row items-center gap-8">
+      <div className="max-w-7xl ml-5 mx-auto pt-10 md:pt-20 flex flex-col md:flex-row items-center gap-8">
         <div className="md:w-1/2">
-          <div className="relative rounded-xl border-yellow-400 shadow-2xl shadow-yellow-400 p-6 md:p-12 text-center" style={{backgroundImage: `url('/community4.jpg')`, backgroundSize: 'cover', backgroundPosition: 'center', height:"auto", backdropFilter: 'blur(100px)'}}>
+          <div className="relative rounded-xl border-yellow-400 shadow-2xl shadow-yellow-400 p-6 md:p-12 text-center" style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/community4.jpg')`, backgroundSize: 'cover', backgroundPosition: 'center', height:"auto", backdropFilter: 'blur(100px)'}}>
             <h2 className="text-xl md:text-3xl text-white font-bold mb-4 md:mb-6">Join our community forum today!</h2>
             <p className="text-base md:text-lg text-white mb-8 md:mb-12">Dive deeper into discussions, connect with like-minded individuals, and actively participate in shaping the platform's future.</p>
             <div className="flex justify-center items-center">
@@ -40,13 +40,13 @@ const CommunitySection = () => {
         <div className="md:w-1/2">
           <div className="flex flex-col items-center bg-cover bg-center rounded-xl p-6 md:p-12 gap-6 md:gap-8 text-center cursor-pointer">
             <h1 className="text-xl md:text-2xl font-bold uppercase text-black dark:text-white transition-colors">Follow us on social media:</h1>
-            <h2 className="text-base md:text-lg text-gray-500">Stay up-to-date with the latest news, announcements, and community events through our social media channels.</h2>
+            <h2 className="text-base md:text-lg text-gray-600 dark:text-gray-400">Stay up-to-date with the latest news, announcements, and community events through our social media channels.</h2>
             <div className="flex justify-center items-center gap-4 mt-4 md:mt-6">
-              <a href='your-google-url' target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGoogle} size="2x" className="text-gray-400 hover:text-yellow-400 hover:-translate-y-2 hover:delay-100 ease-in-out transition-colors duration-300" /></a>
-              <a href='your-whatsapp-url' target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faWhatsapp} size="2x" className="text-gray-400 hover:text-yellow-400 hover:-translate-y-2 hover:delay-100 ease-in-out transition-colors duration-300" /></a>
-              <a href='your-linkedin-url' target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} size="2x" className="text-gray-400 hover:text-yellow-400 hover:-translate-y-2 hover:delay-100 ease-in-out transition-colors duration-300" /></a>
-              <a href='your-twitter-url' target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} size="2x" className="text-gray-400 hover:text-yellow-400 hover:-translate-y-2 hover:delay-100 ease-in-out transition-colors duration-300" /></a>
-              <a href='your-facebook-url' target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} size="2x" className="text-gray-400 hover:text-yellow-400 hover:-translate-y-2 hover:delay-100 ease-in-out transition-colors duration-300" /></a>
+              <a href='your-google-url' target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGoogle} size="2x" className="text-gray-600 dark:text-gray-400 hover:text-yellow-400 hover:-translate-y-2 hover:delay-100 ease-in-out transition-colors duration-300" /></a>
+              <a href='your-whatsapp-url' target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faWhatsapp} size="2x" className="text-gray-600 dark:text-gray-400 hover:text-yellow-400 hover:-translate-y-2 hover:delay-100 ease-in-out transition-colors duration-300" /></a>
+              <a href='your-linkedin-url' target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} size="2x" className="text-gray-600 dark:text-gray-400 hover:text-yellow-400 hover:-translate-y-2 hover:delay-100 ease-in-out transition-colors duration-300" /></a>
+              <a href='your-twitter-url' target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} size="2x" className="text-gray-600 dark:text-gray-400 hover:text-yellow-400 hover:-translate-y-2 hover:delay-100 ease-in-out transition-colors duration-300" /></a>
+              <a href='your-facebook-url' target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} size="2x" className="text-gray-600 dark:text-gray-400 hover:text-yellow-400 hover:-translate-y-2 hover:delay-100 ease-in-out transition-colors duration-300" /></a>
             </div>
           </div>
         </div>

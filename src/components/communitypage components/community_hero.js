@@ -28,7 +28,9 @@ const Community_hero = () => {
             }
           },
 
-        ]
+        ],
+        prevArrow: <></>, // Hide previous arrow
+        nextArrow: <></>, // Hide next arrow
       };
   return (
         <section className="bg-white dark:bg-gray-900 h-auto ">
@@ -38,7 +40,7 @@ const Community_hero = () => {
             <span className="text-xs bg-yellow-400 rounded-full text-white px-4 py-1.5 mr-3">New</span> <span className="text-sm font-medium">See whats new in community!</span> 
             <svg className="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
         </a>
-        <h1 className="mb-4 text-2xl p-2 font-bold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-4xl dark:text-white">ABYA Community - Where Learners Connect, Collaborate, and Thrive</h1>
+        <h1 className="mb-4 text-2xl p-2 font-bold tracking-tight leading-none text-gray-900 md:text-3xl lg:text-3xl dark:text-white">ABYA Community - Where Learners Connect, Collaborate, and Thrive</h1>
         <p className="mb-8 text-lg font-normal text-gray-500 w-full lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Forget isolated learning and join a vibrant community where diversity thrives, knowledge flows freely, and collaboration sparks innovation. At ABYA University, learning goes beyond courses and lectures; its about connecting with like-minded individuals from around the world, sharing your experiences, and growing together.</p>
         <div className="flex flex-row container mx-auto items-center justify-center mb-8  md:justify-center md:space-y-0 md:space-x-2 lg:flex-row lg:justify-center lg:space-x-2 gap-2 my-auto">
             <a href="#" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-yellow-400 hover:bg-yellow-300 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
@@ -50,30 +52,30 @@ const Community_hero = () => {
                 Watch video
             </a>  
         </div>
-        <div className="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg top-2 mt-2 pt-2 lg:px-36 dark:bg-gray-400">
+        <div className="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-xl top-2 mt-2 pt-2 lg:px-3 dark:bg-gray-400">
             <span className="font-semibold text-gray-400 uppercase p-4 text-2xl dark:text-gray-200">FEATURED IN</span>
-            <Slider {...settings} className="space-x-3 gap-4 items-center justify-between">
-                <div className='my-auto p-3'>
+            <Slider {...settings} className="space-x-10 gap-5 lg:p-5 md:p-5 lg:w-full items-center justify-between my-auto">
+                <div className='my-auto p-3 lg:pt-10  md:pt-10'>
                     <a href="https://www.blockchain1.com">
                         <img src="/monero.svg" alt="" />
                     </a>
                 </div>
-                <div className='my-auto p-3'>
+                <div className='my-auto p-3 lg:pt-5 md:pt-5'>
                 <a href="https://www.blockchain2.com">
                     <img src="/tron.svg" alt="" />
                 </a>
                 </div>
-                <div className='my-auto p-3'>
+                <div className='my-auto p-3 lg:pt-10 md:pt-10'>
                 <a href="https://www.blockchain2.com">
                     <img src="/bitcoin.svg" alt="" />
                 </a>
                 </div>
-                <div className='my-auto p-3'>
+                <div className='my-auto p-3 lg:pt-10 md:pt-10'>
                     <a href="https://www.blockchain1.com">
                         <img src="/ethereum3.svg" alt="" />
                     </a>
                 </div>
-                <div className='my-auto p-3'>
+                <div className='my-auto p-3 lg:pt-5'>
                 <a href="https://www.blockchain2.com">
                     <img src="/solana.svg" alt="" />
                 </a>
@@ -93,7 +95,7 @@ const Community_hero = () => {
                     <img src="/aptos.svg" alt="Blockchain 2" />
                 </a>
                 </div>
-                <div className='my-auto p-3 pt-4'>
+                <div className='my-auto p-3 lg:pt-10 md:pt-10'>
                     <a href="https://www.blockchain1.com">
                         <img src="/worldcoin.svg" alt=""/>
                     </a>
@@ -103,12 +105,12 @@ const Community_hero = () => {
                     <img src="/apenft.svg" alt="" />
                 </a>
                 </div>
-                <div className='my-auto p-3'>
+                <div className='my-auto p-5'>
                     <a href="https://www.blockchain1.com">
                         <img src="/quant.svg" alt="" />
                     </a>
                 </div>
-                <div className='my-auto p-3'>
+                <div className='my-auto p-5'>
                 <a href="https://www.blockchain2.com">
                     <img src="/chia.svg" alt="" />
                 </a>

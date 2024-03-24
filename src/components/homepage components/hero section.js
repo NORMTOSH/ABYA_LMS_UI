@@ -4,7 +4,7 @@ import Navbar from "./navbar";
 import Slider from "react-slick";
 import Slide from "./slide";
 // Import your CSS file
-import "../../app/globals.css";
+// import "../../app/globals.css";
 
 const Hero = () => {
     var settings = {
@@ -18,6 +18,9 @@ const Hero = () => {
         pauseOnHover: true,
         cssEase: 'ease-in-out',
         // fade: true,
+
+        prevArrow: <></>, // Hide previous arrow
+        nextArrow: <></>, // Hide next arrow
       };
 
     const slideData = () => [
@@ -53,12 +56,12 @@ const Hero = () => {
         }
     ]
     return ( 
-        <div className="bg-gray-100 dark:bg-gray-800 h-[100vh]">
+        <div className="bg-gray-100 dark:bg-gray-800 h-[100vh] md:w-[100%]">
             <Navbar />
             <div className="container pt-2 lg:pt-0 mx-auto items-center">
                 <div className="items-center mx-auto text-center p-[20px] md:p-[60px] lg:p-[60px]">
                     <h1 className="text-2xl lg:text-3xl font-bold text-gray-800 dark:text-gray-100">ABYA University: Where Education Meets Empowerment</h1>
-                    <p className="text-lg lg:text-xl text-gray-600 lg:w-[80%] m-2 lg:text-center lg:mx-auto dark:text-gray-400">Tired of stale lectures and rigid systems? The education revolution is here, powered by blockchain technology and fueled by you.</p>
+                    <p className="text-lg lg:text-xl text-gray-600 lg:w-[74%] m-2 lg:text-center lg:mx-auto dark:text-gray-400">Tired of stale lectures and rigid systems? The education revolution is here, powered by blockchain technology and fueled by you.</p>
                     <span className="mt-3 text-2xl">Join ABYA University, the decentralized learning platform where:</span>
                     {/* two join btns */}
                     <div className="flex justify-center mt-4 gap-2">

@@ -24,19 +24,19 @@ const Navbar = () => {
         <div className="flex items-center">
           <img width="150" height="150" src="https://abyauniversity.com/wp-content/uploads/2022/08/abya-university-resized.png" class="attachment-large size-large wp-image-3255" alt="" loading="lazy" srcset="https://abyauniversity.com/wp-content/uploads/2022/08/abya-university-resized.png 592w, https://abyauniversity.com/wp-content/uploads/2022/08/abya-university-resized-300x129.png 300w" sizes="(max-width: 592px) 100vw, 592px"/>          
         </div>
-        <nav className="hidden lg:flex md:flex items-center">
+        <nav className="hidden lg:flex md:flex md:text-sm items-center">
           <ul className="flex justify-evenly px-4">
-            <li className="px-2"><a href="/" className="font-semibold text-lg md:text-md lg:text-lg text-yellow-500 transition-colors duration-300 ease-in-out hover:text-yellow-500 hover:cursor-pointer">Home</a></li>
+            <li className="px-2"><a href="/" className="font-semibold text-lg md:text-sm lg:text-lg text-yellow-500 transition-colors duration-300 ease-in-out hover:text-yellow-500 hover:cursor-pointer">Home</a></li>
             <li className="px-2">
-              <a href="/aboutpage" className="font-semibold text-lg md:text-md lg:text-lg text-gray-500 relative transition-colors duration-300 ease-in-out hover:text-yellow-400 hover:cursor-pointer hover:underline hover:scale-110">
+              <a href="/aboutpage" className="font-semibold text-lg md:text-sm lg:text-lg text-gray-500 relative transition-colors duration-300 ease-in-out hover:text-yellow-400 hover:cursor-pointer hover:underline hover:scale-110">
                 About Us
               </a>
             </li>
-            <li className="px-2"><a href="/platform"  className="font-semibold text-lg md:text-md lg:text-lg text-gray-500 transition-colors duration-300 ease-in-out hover:text-yellow-400 hover:cursor-pointer hover:underline">The Platform</a></li>
-            <li className="px-2"><a href="#"  className="font-semibold text-lg md:text-md lg:text-lg text-gray-500 transition-colors duration-300 ease-in-out hover:text-yellow-400 hover:cursor-pointer hover:underline">DAO & Tokenomics</a></li>
-            <li className="px-2"><a href="/communitypage"  className="font-semibold text-lg md:text-md lg:text-lg text-gray-500 transition-colors duration-300 ease-in-out hover:text-yellow-400 hover:cursor-pointer hover:underline">Community</a></li>
-            <li className="px-2"><a href="#"  className="font-semibold text-lg md:text-md lg:text-lg text-gray-500 transition-colors duration-300 ease-in-out hover:text-yellow-400 hover:cursor-pointer hover:underline">Resources</a></li>
-            <li className="px-2"><a href="/contactpage"  className="font-semibold text-lg md:text-md lg:text-lg text-gray-500 transition-colors duration-300 ease-in-out hover:text-yellow-400 hover:cursor-pointer hover:underline">Contact Us</a></li>
+            <li className="px-2"><a href="/platform"  className="font-semibold text-lg md:text-sm lg:text-lg text-gray-500 transition-colors duration-300 ease-in-out hover:text-yellow-400 hover:cursor-pointer hover:underline">The Platform</a></li>
+            <li className="px-2"><a href="/daopage"  className="font-semibold text-lg md:text-sm lg:text-lg text-gray-500 transition-colors duration-300 ease-in-out hover:text-yellow-400 hover:cursor-pointer hover:underline">DAO & Tokenomics</a></li>
+            <li className="px-2"><a href="/communitypage"  className="font-semibold text-lg md:text-sm lg:text-lg text-gray-500 transition-colors duration-300 ease-in-out hover:text-yellow-400 hover:cursor-pointer hover:underline">Community</a></li>
+            <li className="px-2"><a href="/resources"  className="font-semibold text-lg md:text-sm lg:text-lg text-gray-500 transition-colors duration-300 ease-in-out hover:text-yellow-400 hover:cursor-pointer hover:underline">Resources</a></li>
+            <li className="px-2"><a href="/contactpage"  className="font-semibold text-lg md:text-sm lg:text-lg text-gray-500 transition-colors duration-300 ease-in-out hover:text-yellow-400 hover:cursor-pointer hover:underline">Contact Us</a></li>
           </ul>
         </nav>  
       <ThemeProvider />
@@ -69,7 +69,7 @@ const Navbar = () => {
 
        {/* Navbar content */}
        {isOpen && (
-      <nav id="navbar" className="py-2 top-[150px]">
+      <nav id="navbar" className="py-2 top-[150px] z-10">
           <ul className="h-auto relative bg-gray-100  dark:bg-gray-700 dark:text-gray-200 mx-auto  w-full shadow-none p-4 space-y-3">
           <li className="mx-auto flex items-center justify-center p-2">
             <a href="/" class="font-semibold text-gray-400 transition-colors duration-300 ease-in-out hover:text-gray-400 hover:cursor-pointer">Home</a>
@@ -81,13 +81,13 @@ const Navbar = () => {
             <a href="/platform" class="font-semibold text-gray-600 dark:text-gray-200 transition-colors duration-300 ease-in-out hover:text-gray-400 hover:cursor-pointer">The Platform</a>
           </li>
           <li className="mx-auto flex items-center justify-center p-2">
-            <a href="#" class="font-semibold text-gray-600 dark:text-gray-200 transition-colors duration-300 ease-in-out hover:text-gray-400 hover:cursor-pointer">DAO & Tokenomics</a>
+            <a href="/daotokenomics" class="font-semibold text-gray-600 dark:text-gray-200 transition-colors duration-300 ease-in-out hover:text-gray-400 hover:cursor-pointer">DAO & Tokenomics</a>
           </li>
           <li className="mx-auto flex items-center justify-center p-2">
             <a href="/communitypage" class="font-semibold text-gray-600 dark:text-gray-200 transition-colors duration-300 ease-in-out hover:text-gray-400 hover:cursor-pointer">Community</a>
           </li>
           <li className="mx-auto flex items-center justify-center p-2">
-            <a href="#" class="font-semibold text-gray-600 dark:text-gray-200 transition-colors duration-300 ease-in-out hover:text-gray-400 hover:cursor-pointer">Resources</a>
+            <a href="/resources" class="font-semibold text-gray-600 dark:text-gray-200 transition-colors duration-300 ease-in-out hover:text-gray-400 hover:cursor-pointer">Resources</a>
           </li>
           <li className="mx-auto flex items-center justify-center p-2">
              <a href="/contactpage" class="font-semibold text-gray-600 dark:text-gray-200 transition-colors duration-300 ease-in-out hover:text-gray-400 hover:cursor-pointer">Contact Us</a>

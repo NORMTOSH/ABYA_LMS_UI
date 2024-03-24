@@ -7,9 +7,46 @@ import { useEffect } from 'react';
 const Statistics = () => {
     useEffect(() => {
         initFlowbite();
-      } , []);
+
+        // Define the updateNumbers function
+    function updateNumbers() {
+        // Define the final numbers
+        const finalNumbers = [73, 100, 40, 10000, 90, 4000];
+
+        // Define the increment value
+        const increment = 1; // You can adjust the increment value as needed
+
+
+        const elementsToUpdate = [
+            "developersCount",
+            "repositoriesCount",
+            "projectsCount",
+            "contributorsCount",
+            "companiesCount",
+            "organizationsCount"
+        ];
+
+        // Update the numbers
+        elementsToUpdate.forEach((elementId, index) => {
+            const element = document.getElementById(elementId);
+            const currentNumber = parseInt(element.textContent);
+            const targetNumber = finalNumbers[index];
+            if (currentNumber < targetNumber) {
+                const newValue = Math.min(currentNumber + increment, targetNumber);
+                element.textContent = newValue;
+            }
+        });
+    }
+
+    // Call the updateNumbers function every updateInterval milliseconds
+    const intervalId = setInterval(updateNumbers, 0.5);
+
+    // Clear the interval when the component unmounts
+    return () => clearInterval(intervalId);
+}, []);
+
   return (
-<div className="w-full container items-center justify-center mx-auto bg-white dark:bg-gray-900 dark:border-gray-900">
+    <div className="w-full container items-center justify-center mx-auto bg-white dark:bg-gray-900 dark:border-gray-900">
     <div className="lg:hidden md:hidden">
         <label for="tabs" className="sr-only">Select tab</label>
         <select id="tabs" className="bg-gray-50 border-0 border-b border-gray-200 text-gray-900 text-sm rounded-t-lg focus:ring-yellow-500 focus:border-yellow-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-yellow-400 dark:focus:border-yellow-400">
@@ -33,27 +70,27 @@ const Statistics = () => {
         <div className="hidden p-4 bg-white rounded-lg md:p-8 dark:bg-gray-800" id="stats" role="tabpanel" aria-labelledby="stats-tab">
             <dl className="flex flex-wrap justify-between max-w-screen-xl grid-cols-2 gap-8 p-4 mx-auto text-gray-900 sm:grid-cols-3 xl:grid-cols-6 dark:text-white sm:p-8">
                 <div className="flex flex-col items-center justify-center">
-                    <dt className="mb-2 text-3xl font-extrabold">73M+</dt>
+                    <dt className="mb-2 text-3xl font-extrabold" id='developersCount'>0</dt>
                     <dd className="text-gray-500 dark:text-gray-400">Developers</dd>
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                    <dt className="mb-2 text-3xl font-extrabold">100M+</dt>
+                    <dt className="mb-2 text-3xl font-extrabold" id='repositoriesCount'>0</dt>
                     <dd className="text-gray-500 dark:text-gray-400">Public repositories</dd>
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                    <dt className="mb-2 text-3xl font-extrabold">1000s</dt>
+                    <dt className="mb-2 text-3xl font-extrabold" id='projectsCount'>0</dt>
                     <dd className="text-gray-500 dark:text-gray-400">Open source projects</dd>
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                    <dt className="mb-2 text-3xl font-extrabold">1B+</dt>
+                    <dt className="mb-2 text-3xl font-extrabold" id='contributorsCount'>0</dt>
                     <dd className="text-gray-500 dark:text-gray-400">Contributors</dd>
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                    <dt className="mb-2 text-3xl font-extrabold">90+</dt>
+                    <dt className="mb-2 text-3xl font-extrabold" id='companiesCount'>0</dt>
                     <dd className="text-gray-500 dark:text-gray-400">Top Forbes companies</dd>
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                    <dt className="mb-2 text-3xl font-extrabold">4M+</dt>
+                    <dt className="mb-2 text-3xl font-extrabold" id='organizationsCount'>0</dt>
                     <dd className="text-gray-500 dark:text-gray-400">Organizations</dd>
                 </div>
             </dl>

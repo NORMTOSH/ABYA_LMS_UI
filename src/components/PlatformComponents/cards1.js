@@ -2,8 +2,8 @@ import React from 'react';
 
 const Cards1 = () => {
     return (
-        <div className="flex justify-center"> {/* Centering the container horizontally */}
-            <div>
+        <div className="flex justify-center dark:bg-gray-900">
+            <div className="w-full md:w-auto">
                 <a href="#" className="">
                     <div className="ml-12 mt-20 px-20 mr-6">
                         <h3 className="font-semibold text-gray-900 dark:text-white text-center">Platform Features </h3>
@@ -12,11 +12,12 @@ const Cards1 = () => {
                         </h2>
                     </div>
                 </a>
-                <div className="flex">
-                    <div className="pt-2 mt-6 ml-14 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 w-112">
+                <div className="flex flex-wrap justify-center container">
+                    {/* Box 1 */}
+                    <div className="pt-2 mt-6 mx-2 max-w-sm bg-white dark:bg-gray-900 dark:shadow-white dark:shadow-lg rounded-lg">
                         
                         <a href="#">
-                            <img className src="landing9.jpg" alt="" />
+                            <img className="w-full" src="landing9.jpg" alt="" />
                         </a>
                         <div className="pt-2 mx-2">
                             <a href="#">
@@ -27,13 +28,16 @@ const Cards1 = () => {
                         <div className="pt-2 pb-6 mx-2">
                             <p className="text-base ml-2">Access a vast library of high-quality courses, manage your learning progress, and track your achievements.</p>
                         </div>
-                        <a href="#" class="ml-4 mb-10 mt-0 bg-black w-24 h-8 block"></a>
+                        <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-yellow-500 rounded-lg hover:bg-yellow-400 focus:ring-4 focus:outline-none focus:ring-blue-300  ml-5 mb-10">
+                         Read more
+                         </a>
                     </div>
 
-                    <div className="pt-2 mt-6 ml-12 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 w-112">
+                    {/* Box 2 */}
+                    <div className="pt-2 mt-6 mx-2 max-w-sm bg-white dark:bg-gray-900 dark:shadow-white dark:shadow-lg rounded-lg">
                         
                         <a href="#">
-                            <img src="landing9.jpg" alt="" />
+                            <img className="w-full" src="landing8.jpg" alt="" />
                         </a>
                         <div className="pt-2 mx-2">
                             <a href="#">
@@ -44,13 +48,17 @@ const Cards1 = () => {
                         <div className="pt-2 pb-6 mx-2">
                             <p className="text-base ml-2">Explore diverse learning materials, research papers, and community-created content to deepen your knowledge.</p>
                         </div>
-                        <a href="#" class="ml-4 mb-10 mt-0 bg-black dark:be-white w-24 h-8 block"></a>
+                        <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-yellow-500  rounded-lg hover:bg-yellow-400 focus:ring-4 focus:outline-none ml-5 mb-10">
+                         Read more
+                         </a>
+
                     </div>
 
-                    <div className="pt-2 mt-6 ml-12 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 w-112">
+                    {/* Box 3 */}
+                    <div className="pt-2 mt-6 mx-2 max-w-sm bg-white  dark:bg-gray-900 dark:shadow-white dark:shadow-lg rounded-lg">
                         
                         <a href="#">
-                            <img className="rounded-t-lg" src="landing9.jpg" alt="" />
+                            <img className="w-full rounded-t-lg" src="landing7.jpg" alt="" />
                         </a>
                         <div className="pt-2 mx-2">
                             <a href="#">
@@ -61,15 +69,17 @@ const Cards1 = () => {
                         <div className="pt-2 pb-6 mx-2">
                             <p className="text-base ml-2">Build your skills by creating software projects, collaborating with peers, and showcasing your expertise.</p>
                         </div>
-                        <a href="#" class="ml-4 mb-10 mt-0 bg-black w-24 h-8 block"></a>
+                        <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-yellow-500  rounded-lg hover:bg-yellow-400 focus:ring-4 focus:outline-none ml-5 mb-10">
+                         Read more
+                         </a>
+                        
                     </div>
-                </div>
 
-                <div className="flex">
-                    <div className="ml-72 pt-2 mt-6 mb-6 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 w-112">
+                    {/* Box 4 */}
+                    <div className="pt-2 mt-6 mx-2 max-w-sm bg-white dark:bg-gray-900 dark:shadow-white dark:shadow-lg rounded-lg">
                     
                         <a href="#">
-                            <img className="rounded-t-lg" src="landing9.jpg" alt="" />
+                            <img className="w-full rounded-t-lg" src="landing6.jpg" alt="" />
                         </a>
                         <div className="pt-2 mx-2">
                             <a href="#">
@@ -80,13 +90,16 @@ const Cards1 = () => {
                         <div className="pt-2 pb-6 mx-2">
                             <p className="text-base ml-2">Earn tokens for sharing knowledge, creating content, and contributing to the platform's growth. Spend them on courses, tools, or community initiatives.</p>
                         </div>
-                        <a href="#" class="ml-4 mb-10 mt-0 bg-black w-24 h-8 block"></a>
+                        <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-yellow-500 rounded-lg hover:bg-yellow-400 focus:ring-4 focus:outline-none ml-5 mb-10">
+                         Read more
+                         </a>
                     </div>
 
-                    <div className="pt-2 mt-6 ml-12 mb-6 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 w-112">
+                    {/* Box 5 */}
+                    <div className="pt-2 mt-6 mx-2 max-w-sm bg-white dark:bg-gray-900 dark:shadow-white dark:shadow-lg rounded-lg">
                         
                         <a href="#">
-                            <img className="rounded-t-lg" src="landing9.jpg" alt="" />
+                            <img className="w-full rounded-t-lg" src="landing1.jpg" alt="" />
                         </a>
                         <div className="pt-2 mx-2">
                             <a href="#">
@@ -97,7 +110,9 @@ const Cards1 = () => {
                         <div className="pt-2 pb-6 mx-2">
                             <p className="text-base ml-2">Actively participate in shaping the platform's future through voting on proposals, governance decisions, and feature development.</p>
                         </div>
-                        <a href="#" class="ml-4 mb-10 mt-0 bg-black w-24 h-8 block"></a>
+                        <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-yellow-500 rounded-lg hover:bg-yellow-400 focus:ring-4 focus:outline-none ml-5 mb-10">
+                         Read more
+                         </a>
                     </div>
                 </div>
             </div>
