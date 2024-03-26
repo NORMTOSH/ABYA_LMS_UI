@@ -75,22 +75,22 @@ const Community_hero = () => {
                         <img src="/ethereum3.svg" alt="" />
                     </a>
                 </div>
-                <div className='my-auto p-3 lg:pt-5'>
+                <div className='my-auto p-3 lg:pt-5 md:mt-5'>
                 <a href="https://www.blockchain2.com">
                     <img src="/solana.svg" alt="" />
                 </a>
                 </div>
-                <div className='my-auto p-3'>
+                <div className='my-auto p-3 md:mt-5'>
                 <a href="https://www.blockchain2.com">
                     <img src="/stellar.svg" alt="" />
                 </a>
                 </div>
-                <div>
+                <div className='md:mt-5'>
                     <a href="https://www.blockchain1.com">
                         <img src="/litecoin.svg" alt="" />
                     </a>
                 </div>
-                <div className='my-auto p-3'>
+                <div className='my-auto p-3 md:mt-5'>
                 <a href="https://www.blockchain2.com">
                     <img src="/aptos.svg" alt="Blockchain 2" />
                 </a>

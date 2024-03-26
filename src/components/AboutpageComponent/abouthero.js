@@ -5,7 +5,7 @@ import Navbar from '../../components/homepage components/navbar';
 
 const AboutHero = () => {
     return (
-        <section class="bg-center bg-no-repeat bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')] bg-gray-700 bg-blend-multiply">
+        <section className="bg-center bg-no-repeat bg-cover bg-gray-700 bg-blend-multiply" style={{backgroundImage: "url('aboutcover.jpg')" }}>
             <Navbar />
             <div class="px-4 mx-auto max-w-screen-xl py-12 lg:py-24">
                 <h3 className="text-2xl sm:px-10 lg:px-16 text-white font-medium">About ABYA University</h3>
@@ -19,7 +19,7 @@ const AboutHero = () => {
                         Learn More
                     </button>
 
-                    <button type="button" className="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-green-700 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+                    <button type="button" className="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-white focus:outline-none bg-white rounded-lg border border-red-700 hover:bg-red-100 hover:text-white focus:z-10 focus:ring-4 focus:ring-red-100 dark:focus:ring-red-700 dark:bg-red-800 dark:text-white dark:border-red-600 dark:hover:text-white dark:hover:bg-red-700">
                         Enroll Now
                     </button>
                 </div>

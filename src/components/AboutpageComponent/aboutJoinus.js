@@ -6,8 +6,8 @@ import Image from 'next/image'; // Import Image component from next/image
 const AboutJoinUs = () => {
     return (
             <div className="dark:bg-gray-900">
-                <div className="container px-4 mx-auto max-w-screen-xl text-center lg:pt-2">
-                    <h3 className="p-2 text-3xl font-bold tracking-tight leading-none md:text-3xl lg:text-3xl">Join the movement</h3>
+                <div className="container px-4 mx-auto max-w-screen-xl text-center lg:py-2">
+                    <h3 className="p-4  text-3xl font-bold tracking-tight leading-none md:text-3xl lg:text-3xl">Join the movement</h3>
                     <p className="mx-5 text-lg dark:text-gray-400 font-normal lg:text-lg sm:px-8 lg:px-24">
                         We invite you to be part of this <strong>revolutionary journey</strong>. Whether you&apos;re a learner seeking a new educational experience, a creator eager to share your knowledge, or simply someone who believes in the power of decentralized learning, there&apos;s a place for you at ABYA University.
                     </p>

@@ -44,7 +44,7 @@ const Hero = () => {
         },
         {
             id: 4,
-            img: "/slide4.png",
+            img: "/engage.png",
             title: "Data you control",
             description: "Say goodbye to centralized control. Blockchain ensures secure storage and ownership of your data, giving you peace of mind and the power to choose.Share your expertise, create courses, and contribute to the community. Get rewarded with tokens, unlocking new opportunities and empowering your financial future."
         },

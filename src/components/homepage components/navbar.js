@@ -81,7 +81,7 @@ const Navbar = () => {
             <a href="/platform" class="font-semibold text-gray-600 dark:text-gray-200 transition-colors duration-300 ease-in-out hover:text-gray-400 hover:cursor-pointer">The Platform</a>
           </li>
           <li className="mx-auto flex items-center justify-center p-2">
-            <a href="/daotokenomics" class="font-semibold text-gray-600 dark:text-gray-200 transition-colors duration-300 ease-in-out hover:text-gray-400 hover:cursor-pointer">DAO & Tokenomics</a>
+            <a href="/daopage" class="font-semibold text-gray-600 dark:text-gray-200 transition-colors duration-300 ease-in-out hover:text-gray-400 hover:cursor-pointer">DAO & Tokenomics</a>
           </li>
           <li className="mx-auto flex items-center justify-center p-2">
             <a href="/communitypage" class="font-semibold text-gray-600 dark:text-gray-200 transition-colors duration-300 ease-in-out hover:text-gray-400 hover:cursor-pointer">Community</a>

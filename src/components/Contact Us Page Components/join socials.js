@@ -4,11 +4,11 @@ import { faWhatsapp, faLinkedin, faTwitter, faFacebook, faGoogle } from '@fortaw
 
 const CommunitySection = () => {
   return (
-    <div className='mx-auto py-20 md:pt-20 bg-white dark:bg-gray-900 h-auto'>
+    <div className='mx-auto pb-10 md:pt-20 bg-white dark:bg-gray-900 h-auto'>
       <div className="text-center">
         <p className="mt-4 text-3xl md:text-4xl font-extrabold">Stay Connected</p>
       </div>
-      <div className="max-w-7xl ml-5 mx-auto pt-10 md:pt-20 flex flex-col md:flex-row items-center gap-8">
+      <div className="max-w-7xl mx-auto pt-10 md:pt-20 flex flex-col md:flex-row items-center gap-8">
         <div className="md:w-1/2">
           <div className="relative rounded-xl border-yellow-400 shadow-2xl shadow-yellow-400 p-6 md:p-12 text-center" style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/community4.jpg')`, backgroundSize: 'cover', backgroundPosition: 'center', height:"auto", backdropFilter: 'blur(100px)'}}>
             <h2 className="text-xl md:text-3xl text-white font-bold mb-4 md:mb-6">Join our community forum today!</h2>

@@ -26,15 +26,15 @@ const Features = () => {
                 </div>
             </div>
             </div>
-<div className="flex flex-col w-full h-[400px] md:w-[90%] lg:w-[90%] dark:border-b rounded-lg dark:bg-gray-800 dark:border-yellow-400">
+            <div className="flex flex-col w-full h-[400px] md:w-[90%] lg:w-[90%] bg-transparent dark:border-b  rounded-lg dark:bg-gray-800 dark:border-yellow-400">
     <a href="#"  className="items-center justify-center mx-auto flex">
-        <img className="p-8 w-1/2 rounded-t-lg" src="transparency.png" alt="product image" />
+        <img className="p-8 w-1/2 rounded-t-lg" src="relevance.png" alt="product image" />
     </a>
     <div className="px-5 pb-5">
         <a href="#">
-            <h5 className="text-xl font-semibold tracking-tight text-center text-gray-900 dark:text-yellow-400">Contribute</h5>
+            <h5 className="text-xl font-semibold tracking-tight text-gray-900 text-center dark:text-yellow-400">Own Your Data</h5>
         </a>
-        <p className="dark:text-gray-300">Share your knowledge, create innovative content, and earn rewards for your expertise. ‍</p>
+        <p className="dark:text-gray-300">Keep your learning data secure and under your control, thanks to blockchain technology.</p>
         <div className="flex items-center justify-between p-2">
                 <a href="#" className="inline-flex mt-2 gap-2 font-medium items-center text-yellow-500 hover:underline">
                     See our guideline
@@ -83,15 +83,16 @@ const Features = () => {
         </div>
     </div>
 </div>
-<div className="flex flex-col w-full h-[400px] md:w-[90%] lg:w-[90%] bg-transparent dark:border-b  rounded-lg dark:bg-gray-800 dark:border-yellow-400">
+
+<div className="flex flex-col w-full h-[400px] md:w-[90%] lg:w-[90%] dark:border-b rounded-lg dark:bg-gray-800 dark:border-yellow-400">
     <a href="#"  className="items-center justify-center mx-auto flex">
-        <img className="p-8 w-1/2 rounded-t-lg" src="relevance.png" alt="product image" />
+        <img className="p-8 w-1/2 rounded-t-lg" src="transparency.png" alt="product image" />
     </a>
     <div className="px-5 pb-5">
         <a href="#">
-            <h5 className="text-xl font-semibold tracking-tight text-gray-900 text-center dark:text-yellow-400">Own Your Data</h5>
+            <h5 className="text-xl font-semibold tracking-tight text-center text-gray-900 dark:text-yellow-400">Contribute</h5>
         </a>
-        <p className="dark:text-gray-300">Keep your learning data secure and under your control, thanks to blockchain technology.</p>
+        <p className="dark:text-gray-300">Share your knowledge, create innovative content, and earn rewards for your expertise. ‍</p>
         <div className="flex items-center justify-between p-2">
                 <a href="#" className="inline-flex mt-2 gap-2 font-medium items-center text-yellow-500 hover:underline">
                     See our guideline

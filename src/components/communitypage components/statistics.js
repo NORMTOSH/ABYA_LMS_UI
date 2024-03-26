@@ -130,12 +130,12 @@ const Statistics = () => {
                 <h2 id="accordion-flush-heading-1">
                     <button type="button" className="flex items-center justify-between w-full py-5 font-medium text-left rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-1" aria-expanded="true" aria-controls="accordion-flush-body-1">
                     <span>What is ABYA?</span>
-                    <svg data-accordion-icon className="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                    <svg data-accordion-icon className="w-3 h-3 rotate-180 shrink-0 transition-transform ease-in-out" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
                     </svg>
                     </button>
                 </h2>
-                <div id="accordion-flush-body-1" className="hidden" aria-labelledby="accordion-flush-heading-1">
+                <div id="accordion-flush-body-1" className="hidden transition-all ease-in-out duration-500" aria-labelledby="accordion-flush-heading-1">
                     <div className="py-5 border-b border-gray-200 dark:border-gray-700">
                     <p className="mb-2 text-gray-500 dark:text-gray-400">Africa Blockchain Youth Ambassadors (ABYA) is an initiative with a mission of promoting blockchain, cryptocurrency and web3 literacy and adoption through championing education and setting up of mentorship and training programs for university students.</p>
                     <p className="text-gray-500 dark:text-gray-400">Check out this guide to learn how to <a href="/docs/getting-started/introduction/" className="text-yellow-500 dark:text-yellow-400 hover:underline">get started</a> and become the change the world needs.</p>
@@ -144,12 +144,12 @@ const Statistics = () => {
                 <h2 id="accordion-flush-heading-2">
                     <button type="button" className="flex items-center justify-between w-full py-5 font-medium text-left rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-2" aria-expanded="false" aria-controls="accordion-flush-body-2">
                     <span>How does ABYA University support students in learning about blockchain and cryptocurrency?</span>
-                    <svg data-accordion-icon className="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                    <svg data-accordion-icon className="w-3 h-3 rotate-180 shrink-0 transition-transform ease-in-out" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
                     </svg>
                     </button>
                 </h2>
-                <div id="accordion-flush-body-2" className="hidden" aria-labelledby="accordion-flush-heading-2">
+                <div id="accordion-flush-body-2" className="hidden  transition-all ease-in-out duration-500" aria-labelledby="accordion-flush-heading-2">
                     <div className="py-5 border-b border-gray-200 dark:border-gray-700">
                     <p className="mb-2 text-gray-500 dark:text-gray-400">ABYA University supports students by providing educational resources, mentorship programs, and training sessions focused on blockchain technology, cryptocurrency, and web3. These resources aim to enhance students understanding and skills in these areas.</p>
                     <p className="text-gray-500 dark:text-gray-400">Check out the <a href="https://flowbite.com/figma/" className="text-yellow-500 dark:text-yellow-400 hover:underline">Figma design system</a> based on the utility classNamees from Tailwind CSS and components from Flowbite.</p>
@@ -158,12 +158,12 @@ const Statistics = () => {
                 <h2 id="accordion-flush-heading-3">
                     <button type="button" className="flex items-center justify-between w-full py-5 font-medium text-left rtl:text-right text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-3" aria-expanded="false" aria-controls="accordion-flush-body-3">
                     <span>Are there any specific mentorship programs offered by ABYA University?</span>
-                    <svg data-accordion-icon className="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                    <svg data-accordion-icon className="w-3 h-3 rotate-180 shrink-0 transition-transform ease-in-out" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
                     </svg>
                     </button>
                 </h2>
-                <div id="accordion-flush-body-3" className="hidden" aria-labelledby="accordion-flush-heading-3">
+                <div id="accordion-flush-body-3" className="hidden  transition-all ease-in-out duration-500" aria-labelledby="accordion-flush-heading-3">
                     <div className="py-5 border-b border-gray-200 dark:border-gray-700">
                     <p className="mb-2 text-gray-500 dark:text-gray-400">Yes, ABYA University offers various mentorship programs tailored to students interested in blockchain, cryptocurrency, and web3 technologies. These programs provide one-on-one guidance, career advice, and support in developing practical skills in the field.</p>
                     

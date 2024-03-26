@@ -2,7 +2,7 @@ import React from 'react';
 
 const ConnectOption = () => {
     return (
-        <div className="bg-white dark:bg-gray-900 mx-auto py-20">
+        <div className="bg-white dark:bg-gray-900 mx-auto pt-5 pb-20">
             <div className="max-w-7xl mx-auto px-4">
                 <div className="text-center">
                     <p className="mt-4 text-3xl font-extrabold">Choose your connection</p>
